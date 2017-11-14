@@ -1,0 +1,234 @@
+/* line 1, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /home/julien/THP/formulaire-style/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 4, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+body {
+  background-color: #ECEEF1;
+  color: #333;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* line 9, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 13, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+header {
+  height: 70px;
+}
+
+/* line 16, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 20, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.form {
+  margin: 10px auto;
+  background-color: white;
+  width: 318px;
+  height: 622px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+/* line 28, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.logo-middle {
+  margin: 0 auto;
+  display: block;
+  width: 125px;
+}
+
+/* line 33, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.spacer {
+  margin-bottom: 10px;
+}
+
+/* line 36, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.spacer-xl {
+  margin-top: 100px;
+}
+
+/* line 39, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.spacer-l {
+  margin-top: 30px;
+}
+
+/* line 42, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.btn {
+  color: white !important;
+  background-color: #0A79C8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* line 49, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+h3 {
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* line 53, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+input {
+  width: 318px;
+  height: 25px;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* line 60, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.btn-account {
+  color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 60px;
+  width: 318px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* line 69, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.float-right {
+  float: right;
+}
+
+/* line 72, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.clear {
+  clear: both;
+}
+
+/* line 75, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.small-text {
+  font-size: 14px;
+}
+
+/* line 78, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* line 82, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+ol {
+  list-style: none;
+}
+
+/* line 85, /home/julien/THP/formulaire-style/app/assets/stylesheets/users.scss */
+.sign-in {
+  vertical-align: 8px;
+  margin: 0 5px;
+}
+
+/*  <%= image_tag 'logo_1.png', width:120 %> */
+/*  <%= image_tag 'form_1.jpeg', width:320 %> */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
