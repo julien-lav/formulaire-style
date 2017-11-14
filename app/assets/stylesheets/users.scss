@@ -1,0 +1,88 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-color: #ECEEF1;
+	color: #333;
+	font-family: 'Barlow', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black; 
+}
+header {
+	height: 70px;
+}
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+.form {
+	margin: 10px auto; 
+	background-color: white;
+	width: 318px;
+	height: 622px;
+	padding: 30px;
+	border: 1px solid #ccc
+}
+.logo-middle {
+	margin: 0 auto; 
+	display: block;
+	width: 125px;
+}
+.spacer {
+	margin-bottom: 10px;
+}
+.spacer-xl {
+	margin-top: 100px;
+}
+.spacer-l {
+	margin-top: 30px;
+}
+.btn {
+	color: white !important;
+	background-color: #0A79C8;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 4px;
+}
+h3 {
+	border-top: 1px solid #ccc;
+	padding: 20px;
+}
+input {
+	width: 318px;
+	height: 25px;
+	margin: 15px auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+.btn-account {
+	color: white;
+	border: 1px solid #ccc;
+	padding: 15px;
+	height: 60px;
+	width: 318px;
+	font-size: 25px;
+	line-height: 30px;
+}
+.float-right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.small-text {
+	font-size: 14px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+ol {
+	list-style: none;
+}
+.sign-in {
+	vertical-align: 8px;
+	margin: 0 5px;
+}

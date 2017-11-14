@@ -1,0 +1,109 @@
+
+
+
+
+<header class="float-right">
+    <ul>
+      <li>
+        <ul class="">
+          <ol> <a href="#" class="small-text">Already have an Intuit account?</a></ol>
+          <ol> <a href="#" class="small-text">I forgot my User ID or Password</a></ol>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="sign-in btn"><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;  Sign In</a>
+      </li>
+   </ul>
+</header> 
+
+<div class="clear"></div>
+
+<div class="logo-middle spacer-l">
+  <%= image_tag 'logo_1.png', width:120 %>
+</div>
+
+<section class="form">
+  <%= image_tag 'form_1.jpeg', width:320 %>
+
+  <div class="spacer"></div>
+
+  <h3 class="center spacer-l"> 
+    One Account.<br> 
+    Everything Intuit.
+  </h3>
+
+  <p class="center">
+    Create an account for all of Intuit's products 
+  </p>
+  <p class="center">
+    including Mint. Learn more
+  </p>
+
+
+
+    <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="spacer-l"></div>
+
+  <div class="field">
+    <%= form.label(:email, "Email address") %>
+    <%= form.text_field :email, id: :user_email %>
+  </div>
+      <div class="spacer-l"></div>
+
+  <div class="field">
+    <%= form.label(:phone, "Phone (recommended)") %>
+    <%= form.text_field :phone, id: :user_phone %>
+  </div>
+  <span class="small-text">Standard call, messaging or data rates may apply.</span>
+      <div class="spacer-l"></div>
+
+  <div class="field">
+    <%= form.label(:string, "Password") %>
+    <%= form.text_field :string, id: :user_string %>
+  </div>
+
+  <button type="submit" value="submit" class="btn btn-account">Create Account</button>
+
+<% end %>
+
+  <p class="center">By clicking Create Account, you agree to our
+License Agreement and Privacy Statement.</p>
+
+
+</section>
+
+
+<footer class="spacer-xl">
+   <div>
+       <ul class="center small-text">
+           <li>
+               <a href="https://about.intuit.com/legal/">Legal</a>
+           </li>
+          <li>
+               <a href="https://security.intuit.com/privacy/">Privacy</a>
+          </li>
+          <li>
+               <a href="https://security.intuit.com/">Security</a>
+          </li>
+       </ul>
+  </div>
+  <div class="center">
+      <span  class="small-text">
+          &copy; 2017 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.  <br>  Terms, conditions, features, support, pricing and service options subject to change without notice.
+            </span>
+        </div>
+    </div>
+</footer>
+
